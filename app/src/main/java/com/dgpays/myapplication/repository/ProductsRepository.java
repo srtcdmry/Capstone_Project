@@ -38,7 +38,6 @@ public class ProductsRepository {
                     @Override
                     public void onFailure(Call<List<ProductResource>> call, Throwable t) {
                         data.setValue(null);
-                        System.out.println("HOME : " + t.getLocalizedMessage());
                     }
                 });
 

@@ -57,7 +57,6 @@ public class BagRepository {
                     @Override
                     public void onFailure(Call<List<MyBagResources>> call, Throwable t) {
                         data.setValue(null);
-                        System.out.println("DGPAYSSSS  " +  t.getLocalizedMessage());
                     }
                 });
 

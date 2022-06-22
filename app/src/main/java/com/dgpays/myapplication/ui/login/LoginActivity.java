@@ -69,15 +69,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         viewModel.getUserResourceLiveData().observe(this, getAllUsers -> {
             if (getAllUsers != null) {
                 for (int i = 0; i < getAllUsers.size(); i++) {
-                    System.out.println(getAllUsers.get(i).getEmail() + "    " + getAllUsers.get(i).getPassword());
                     if (eMail.equals(getAllUsers.get(i).getEmail()) && password.equals(getAllUsers.get(i).getPassword())) {
                         user.setEmail(binding.emailAdress.getText().toString());
                         user.setPassword(binding.password.getText().toString());
                         DatabaseInitializer.populateAsync(AppDatabase.getAppDatabase(getApplicationContext()), user);
                         Toast.makeText(this, "Login Success", Toast.LENGTH_SHORT).show();
                         gotoMain();
-                    } else {
-                        Toast.makeText(this, "Login Failed", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
