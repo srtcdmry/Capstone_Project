@@ -40,9 +40,9 @@ public class BagFragment extends Fragment implements View.OnClickListener, Total
                              ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentBagBinding.inflate(inflater, container, false);
         apiRetrofitClient = ApiRetrofitClient.getClient().create(ProductResourcesInterface.class);
-        getMyBag2();
         lottieDialogFragment = new LottieDialogFragment(getActivity());
         lottieDialogFragment.show();
+        getMyBag2();
         View root = binding.getRoot();
         binding.setListener(this);
         ProcessLifecycleOwner.get().getLifecycle().addObserver(this);
