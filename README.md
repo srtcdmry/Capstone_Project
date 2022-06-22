@@ -68,7 +68,7 @@ Kullanıcı sepetinde herhangi bir ürün unutup uygulamayı arkaplana aldığı
 
 ## MainActivity (Home, Shop, Bag -> Complete - Favorite, Profile -> Optional)
 
-![Screenshot_20220622-143035](https://user-images.githubusercontent.com/74022745/175020162-1dc56c96-ad05-4dd1-a142-7df977f3cb8e.jpg)
+![Screenshot_20220622-152013](https://user-images.githubusercontent.com/74022745/175027761-626c1693-c065-47d2-b631-8ba8a22d6147.jpg)
 ![Screenshot_20220622-143042](https://user-images.githubusercontent.com/74022745/175020170-a3d13fc9-ba37-4ab5-acd5-3cc5a077c31f.jpg)
 ![Screenshot_20220622-143025](https://user-images.githubusercontent.com/74022745/175020190-55feae11-7182-4e5c-9946-4676c91d7399.jpg)
 
