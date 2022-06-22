@@ -80,4 +80,7 @@ Kullanıcı sepetinde herhangi bir ürün unutup uygulamayı arkaplana aldığı
 
 ![Screenshot_20220622-132705](https://user-images.githubusercontent.com/74022745/175020929-81866b95-0e5f-4549-86bf-56260762c883.jpg)
 
+## Work Manager
+
+![Screenshot_20220622-144439_One UI Home](https://user-images.githubusercontent.com/74022745/175021513-aa9f63ea-1e39-4925-9be4-c21643666b1f.jpg)
 
